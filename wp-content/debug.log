@@ -1,0 +1,28 @@
+[02-Apr-2025 01:08:04 UTC] PHP Warning:  Undefined array key "host" in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-includes/pluggable.php on line 1625
+[02-Apr-2025 01:25:04 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[02-Apr-2025 02:20:36 UTC] PHP Fatal error:  Out of memory (allocated 37748736) (tried to allocate 28672 bytes) in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-admin/includes/ajax-actions.php on line 1420
+[02-Apr-2025 02:20:36 UTC] PHP Fatal error:  Out of memory (allocated 37748736) (tried to allocate 12288 bytes) in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-includes/functions.php on line 6893
+[02-Apr-2025 02:20:38 UTC] PHP Fatal error:  Out of memory (allocated 35651584) (tried to allocate 2097152 bytes) in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/product-settings.php on line 47
+[02-Apr-2025 02:20:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[02-Apr-2025 02:20:50 UTC] PHP Fatal error:  Out of memory (allocated 33554432) (tried to allocate 2097152 bytes) in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/product-settings.php on line 32
+[02-Apr-2025 02:20:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[02-Apr-2025 02:21:39 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/themes/theme-classic-list.php on line 63
+[02-Apr-2025 02:21:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
