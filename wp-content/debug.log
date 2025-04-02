@@ -26,3 +26,11 @@ Stack trace:
 #2 [internal function]: IC_EPC_Tracking->fatal()
 #3 {main}
   thrown in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[02-Apr-2025 02:22:23 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/themes/theme-classic-list.php on line 63
+[02-Apr-2025 02:22:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/Khan-Namir-Assignment-4/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
